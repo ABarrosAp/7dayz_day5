@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  color: #eef5ec;
+  text-shadow: 1px 1px 1px red;
+  background: linear-gradient(#ba91cd, #160536);
+  font-family: "Roboto Mono", monospace;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.simNao {
+  margin: 20px;
+}
+
+.entradas,
+#adicionarElem {
+  margin: 10px;
+}
+
+#ctgProd,
+#newProd {
+  margin-left: 5px;
+  padding: 0.5rem;
+  background-color: #eef5ec;
+  color: indianred;
+  width: 120px;
+  border-radius: 10px;
+  border-color: indianred;
+  box-shadow: 0px 2px 2px indianred;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #160536;
+  color: #eef5ec;
+  border-radius: 10px;
+  border-color: #eef5ec;
+  box-shadow: 0px 2px 2px #eef5ec;
+  text-align: center;
+}
+
+.listaEstilo {
+  display: flex;
+  place-content: start;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background: linear-gradient(0.175turn, #8973b8, #909cc0);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #eef5ec;
+  text-align: justify;
+}
+
+#listaUl {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+  text-align: justify;
+}
+
+li {
+  margin-top: 0.25rem;
+  list-style: none;
+  text-align: justify;
+}
